@@ -1,0 +1,7 @@
+src/
+├── App.js           # Main component
+├── App.css          # Main styles
+├── components/
+│   ├── Grid.js      # Grid display
+│   ├── Controls.js  # Input controls
+│   └── Palette.js   # Color selector
