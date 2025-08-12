@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import beadData from '../data/bead_sizes.json';
+
+const beadOptions = beadData.Beads;
 
 function Controls({ patternSize, setPatternSize, beadSize, setBeadSize }) {
     const [patternName, setPatternName] = useState(null);
@@ -11,7 +14,8 @@ function Controls({ patternSize, setPatternSize, beadSize, setBeadSize }) {
   return (
     <div className="controls">
         {/* Pattern Name Input*/}
-        <label>Pattern Name:
+        <label>
+          <strong>Pattern Name:</strong>
             <input
             type="text"
             value={patternName || ''} // null default
@@ -21,7 +25,7 @@ function Controls({ patternSize, setPatternSize, beadSize, setBeadSize }) {
         </label>
         {/* Dimension Inputs */}
       <label>
-        Length (mm):
+        <strong>Length (mm):</strong>
         <input 
           type="number" 
           name="length" 
@@ -31,7 +35,7 @@ function Controls({ patternSize, setPatternSize, beadSize, setBeadSize }) {
         />
       </label>
       <label>
-        Width (mm):
+        <strong>Width (mm):</strong>
         <input 
           type="number" 
           name="width" 
@@ -42,13 +46,17 @@ function Controls({ patternSize, setPatternSize, beadSize, setBeadSize }) {
       </label>
       {/* Bead Size */}
       <label>
-        Bead Size (mm):
-        <input 
-          type="number" 
-          value={beadSize} 
-          onChange={(e) => setBeadSize(Number(e.target.value))} 
-          min="1"
-        />
+        <strong>Bead Size:</strong>
+        <select value={beadSize}
+        onChange={(e) => setBeadSize(Number(e.target.value))}
+        >
+          <option value="10">Select Bead Size</option>
+          {beadOptions.map(bead => (
+            <option key={bead.id} value={bead.length_mm}>
+              {`${bead.brand} ${bead.size} ${bead.type} - ${bead.length_mm} mm`}
+            </option>
+          ))}
+        </select>
       </label>
     </div>
   );

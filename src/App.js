@@ -4,6 +4,7 @@ import Grid from './components/Grid';
 import Palette from './components/Palette';
 import './App.css';
 
+
 function App() {
   const [patternName, setPatternName] = useState(null);
   const [patternSize, setPatternSize] = useState({ length: 100, width: 100 });
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Bead Pattern Creator</h1>
+      <h1>Loops and Olive Bead Pattern Creator</h1>
       <Controls 
         patternName={patternName}
         setPatternName={setPatternName}

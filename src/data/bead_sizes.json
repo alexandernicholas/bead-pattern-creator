@@ -1,0 +1,38 @@
+{
+    "title": "Seed Bead Size Reference (Miyuki, Toho, Czech)",
+    "date-modified": "08-12-2025",
+    "units": "millimeters (approx.)",
+    "Notes": "Dimensions are based on manufacturer data. Slight variations occur between batches/finishes.",
+    "Beads": [
+        {"id": "miyuki-sb-15-0", "type": "Seed Bead", "brand": "Miyuki", "size": "15/0", "shape": "round", "length_mm": 1.3, "diameter_mm": 1.5 },
+        {"id": "miyuki-sb-11-0", "type": "Seed Bead", "brand": "Miyuki", "size": "11/0", "shape": "round", "length_mm": 1.6, "diameter_mm": 2.0 },
+        {"id": "miyuki-sb-8-0",  "type": "Seed Bead", "brand": "Miyuki", "size": "8/0",  "shape": "round", "length_mm": 2.1, "diameter_mm": 3.0 },
+        {"id": "miyuki-sb-6-0",  "type": "Seed Bead", "brand": "Miyuki", "size": "6/0",  "shape": "round", "length_mm": 3.3, "diameter_mm": 4.0 },
+        
+        {"id": "miyuki_delica_15_0", "type": "Delica Bead", "brand": "Miyuki", "shape": "cylinder", "size": "15/0", "length_mm": 1.0, "diameter_mm": 1.3 },
+        {"id": "miyuki_delica_11_0", "type": "Delica Bead", "brand": "Miyuki", "shape": "cylinder", "size": "11/0", "length_mm": 1.3, "diameter_mm": 1.6 },
+        {"id": "miyuki_delica_10_0", "type": "Delica Bead", "brand": "Miyuki", "shape": "cylinder", "size": "10/0", "length_mm": 1.5, "diameter_mm": 2.2 },
+
+        {"id": "toho-sb-15-0", "type": "Seed Bead", "brand": "Toho", "size": "15/0", "shape": "round", "length_mm": 1.3, "diameter_mm": 1.5 },
+        {"id": "toho-sb-11-0", "type": "Seed Bead", "brand": "Toho", "size": "11/0", "shape": "round", "length_mm": 1.7, "diameter_mm": 2.2 },
+        {"id": "toho-sb-8-0",  "type": "Seed Bead", "brand": "Toho", "size": "8/0",  "shape": "round", "length_mm": 2.1, "diameter_mm": 3.1 },
+        {"id": "toho-sb-6-0",  "type": "Seed Bead", "brand": "Toho", "size": "6/0",  "shape": "round", "length_mm": 3.3, "diameter_mm": 4.2 },
+        
+        {"id": "czech-sb-15-0", "type": "Seed Bead", "brand": "Czech", "size": "15/0", "shape": "round", "length_mm": 1.3, "diameter_mm": 1.6 },
+        {"id": "czech-sb-11-0", "type": "Seed Bead", "brand": "Czech", "size": "11/0", "shape": "round", "length_mm": 1.7, "diameter_mm": 2.1 },
+        {"id": "czech-sb-8-0",  "type": "Seed Bead", "brand": "Czech", "size": "8/0",  "shape": "round", "length_mm": 2.2, "diameter_mm": 3.2 },
+        {"id": "czech-sb-6-0",  "type": "Seed Bead", "brand": "Czech", "size": "6/0",  "shape": "round", "length_mm": 3.4, "diameter_mm": 4.1 },
+
+        {"id": "miyuki-bb-3mm",  "type": "Bugle Bead", "brand": "Miyuki", "size": "3mm",  "shape": "tube", "length_mm": 3.0,  "diameter_mm": 1.5 },
+        {"id": "miyuki-bb-6mm",  "type": "Bugle Bead", "brand": "Miyuki", "size": "6mm",  "shape": "tube", "length_mm": 6.0,  "diameter_mm": 1.5 },
+        {"id": "miyuki-bb-12mm", "type": "Bugle Bead", "brand": "Miyuki", "size": "12mm", "shape": "tube", "length_mm": 12.0, "diameter_mm": 1.5 },
+
+        {"id": "toho-bb-3mm",  "type": "Bugle Bead", "brand": "Toho", "size": "3mm",  "shape": "tube", "length_mm": 3.0,  "diameter_mm": 1.6 },
+        {"id": "toho-bb-6mm",  "type": "Bugle Bead", "brand": "Toho", "size": "6mm",  "shape": "tube", "length_mm": 6.0,  "diameter_mm": 1.6 },
+        {"id": "toho-bb-12mm", "type": "Bugle Bead", "brand": "Toho", "size": "12mm", "shape": "tube", "length_mm": 12.0, "diameter_mm": 1.6 },
+
+        {"id": "czech-bb-3mm",  "type": "Bugle Bead", "brand": "Czech", "size": "3mm",  "shape": "tube", "length_mm": 3.0,  "diameter_mm": 1.7 },
+        {"id": "czech-bb-6mm",  "type": "Bugle Bead", "brand": "Czech", "size": "6mm",  "shape": "tube", "length_mm": 6.0,  "diameter_mm": 1.7 },
+        {"id": "czech-bb-12mm", "type": "Bugle Bead", "brand": "Czech", "size": "12mm", "shape": "tube", "length_mm": 12.0, "diameter_mm": 1.7 }
+    ]
+}
